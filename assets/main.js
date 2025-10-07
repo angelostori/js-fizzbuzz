@@ -26,5 +26,9 @@ for (let i = 1; i <= 100; i++) {
     //inserisco la condizione per cui i modulo 5 stampi Buzz
     } else if (i % 5 === 0) {
         console.log('Buzz');
+    //BONUS: altrimenti stampo il numero
+    } else {
+        console.log(i);
+        
     }
 }
