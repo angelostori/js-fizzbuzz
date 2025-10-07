@@ -14,3 +14,7 @@ scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma 
 così come lo faremmo "a mano"
 */
+//creo un ciclo for per stampare stampare in console i numeri da 1 a 100
+for (let i = 1; i <= 100; i++) {
+    
+}
