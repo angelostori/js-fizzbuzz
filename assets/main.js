@@ -16,8 +16,12 @@ così come lo faremmo "a mano"
 */
 //creo un ciclo for per stampare stampare in console i numeri da 1 a 100
 for (let i = 1; i <= 100; i++) {
+    //inserisco la condizione per cui i modulo 3 e 5 stampi FizzBuzz
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log('FizzBuzz');
+    }
     //inserisco la condizione per cui i modulo 3 stampi Fizz
-    if(i % 3 === 0) {
+    else if (i % 3 === 0) {
         console.log('Fizz');
     //inserisco la condizione per cui i modulo 5 stampi Buzz
     } else if (i % 5 === 0) {
