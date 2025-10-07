@@ -19,5 +19,8 @@ for (let i = 1; i <= 100; i++) {
     //inserisco la condizione per cui i modulo 3 stampi Fizz
     if(i % 3 === 0) {
         console.log('Fizz');
-    } 
+    //inserisco la condizione per cui i modulo 5 stampi Buzz
+    } else if (i % 5 === 0) {
+        console.log('Buzz');
+    }
 }
